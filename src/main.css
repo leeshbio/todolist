@@ -1,0 +1,120 @@
+.wrap{
+    width: 90%;
+    margin:0 auto;
+}
+.title{
+
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+}
+
+.title > div{
+    padding: 10px;
+}
+
+
+
+.input_wrap{
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.input_box{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+   
+    
+}
+.input_text{
+    display: flex;
+}
+
+.input_title{
+    display: flex;
+    align-items: center;
+}
+
+.input_title > p{padding: 0 10px;}
+
+.title_a{
+       width: 300px;
+       height: 40px;
+       border: none;
+       border-radius: 10px;
+}
+
+
+.add_btn{
+    width: 150px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.add_btn:hover{
+    opacity: 0.5;
+}
+
+.list_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.list_container{
+    width: 300px;
+    height: 200px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.list_btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_btn > button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.list_btn > button:hover {
+    opacity: 0.5;
+}
+
+.delete_btn {
+    border: 2px solid red;
+}
+
+.complete_btn {
+    border: 2px solid blue;
+}
+
+.cancel_btn {
+    border: 2px solid blue;
+}
+
+
+
